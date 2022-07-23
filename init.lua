@@ -119,7 +119,6 @@ local function setup(args)
 
     xplr.config.node_types.directory.style = {
         fg = { Rgb = { 251, 241, 199 }},
-        add_modifiers = { },
     }
 
     args = args or {}
@@ -151,13 +150,16 @@ local function setup(args)
     xplr.config.general.panel_ui.default.title.style.fg = { Rgb = { 206, 206, 206 } }
     xplr.config.general.panel_ui.default.title.style.add_modifiers = { "Bold" }
     xplr.config.general.panel_ui.default.style.fg = { Rgb = { 206, 206, 206 } }
-    xplr.config.general.panel_ui.default.style.bg = { Rgb = { 40, 40, 40 } }
+    -- solid bg color
+    -- xplr.config.general.panel_ui.default.style.bg = { Rgb = { 40, 40, 40 } }
+    -- transparent bg
+    xplr.config.general.panel_ui.default.style.bg = nil
     xplr.config.general.panel_ui.default.borders = { "Top", "Right", "Bottom", "Left"}
-    xplr.config.general.panel_ui.help_menu.style.bg = { Rgb = { 33, 29, 29 } }
+    xplr.config.general.panel_ui.help_menu.style.bg = nil
     xplr.config.general.panel_ui.help_menu.style.fg = { Rgb = { 251, 241, 199 } }
 
     if args.keep_default_layout then
-        xplr.config.general.panel_ui.selection.style.bg = { Rgb = { 33, 29, 29 } }
+        xplr.config.general.panel_ui.selection.style.bg = nil
         xplr.config.general.panel_ui.selection.style.fg = { Rgb = { 251, 241, 199 } }
     else
         set_layout()
