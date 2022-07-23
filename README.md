@@ -1,4 +1,4 @@
-[![imagecb16fe619f3c244e.png](https://s3.gifyu.com/images/imagecb16fe619f3c244e.png)](https://gifyu.com/image/58oh)
+[![preview.png](./preview.png)](./preview.png)
 
 ## Installation
 
