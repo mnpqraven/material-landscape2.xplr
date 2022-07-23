@@ -123,7 +123,7 @@ local function setup(args)
   xplr.config.general.default_ui.prefix = " "
   xplr.config.general.default_ui.suffix = ""
 
-  xplr.config.general.focus_ui.prefix = "▸"
+  xplr.config.general.focus_ui.prefix = ""
   xplr.config.general.focus_ui.suffix = ""
   xplr.config.general.focus_ui.style.fg = { Rgb = { 65, 11, 12 } }
   xplr.config.general.focus_ui.style.bg = { Rgb = { 206, 206, 206 } }
@@ -134,7 +134,7 @@ local function setup(args)
   xplr.config.general.selection_ui.style.fg = { Rgb = { 153, 153, 0 } }
   xplr.config.general.selection_ui.style.add_modifiers = { "Italic", "CrossedOut" }
 
-  xplr.config.general.focus_selection_ui.prefix = "▸"
+  xplr.config.general.focus_selection_ui.prefix = ""
   xplr.config.general.focus_selection_ui.suffix = ""
   xplr.config.general.focus_selection_ui.style.fg = { Rgb = { 65, 11, 12 } }
   xplr.config.general.focus_selection_ui.style.bg = { Rgb = { 206, 206, 206 } }
